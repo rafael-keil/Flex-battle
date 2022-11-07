@@ -1,0 +1,40 @@
+.transform-tip__order-title-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transform-tip__first-title {
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+.transform-tip__title {
+  padding: 10px 0;
+  max-width: 90%;
+}
+
+.transform-tip__button {
+  background-color: #e5faff;
+  border: none;
+  height: 30px;
+  width: 30px;
+  margin-top: 5px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.transform-tip__button:hover {
+  background-color: rgba(182, 182, 182, 0.301);
+}
+
+.transform-tip__description {
+  padding-left: 30px;
+}
+
+.transform-tip__bold {
+  font-family: Aoenik-bold, arial, sans-serif;
+}
+
+.transform-tip__button-icon {
+  transform: rotate(180deg);
+}

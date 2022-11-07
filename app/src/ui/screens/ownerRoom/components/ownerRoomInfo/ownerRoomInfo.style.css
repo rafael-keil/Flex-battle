@@ -1,0 +1,38 @@
+.owner-room-info {
+  background: linear-gradient(to right, #e5faff 50%, #dee8ff 50% 100%);
+}
+.owner-room-info__title {
+  font-size: 24px;
+  font-family: Aoenik-bold, arial, sans-serif;
+  margin-bottom: 23px;
+}
+
+.owner-room-info__description {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.owner-room-info__secondary-description {
+  font-size: 18px;
+  opacity: 0.8;
+  margin-top: 30px;
+}
+
+.owner-room-info__token-container {
+  display: flex;
+  gap: 10px;
+  margin: 30px 0;
+}
+
+.owner-room-info__token {
+  border-radius: 8px;
+  color: #898989;
+  background-color: white;
+  font-size: 18px;
+  border: 1px solid #c4c4c4;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 312px;
+}

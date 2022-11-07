@@ -1,0 +1,16 @@
+@font-face {
+  font-family: Aoenik;
+  src: local(Aoenik), url(./assets/Aeonik-Regular.otf) format("truetype");
+}
+
+@font-face {
+  font-family: Aoenik-bold;
+  src: local(Aoenik-bold), url(./assets/Aeonik-Bold.otf) format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Aoenik, arial, sans-serif;
+}

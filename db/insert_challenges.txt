@@ -1,0 +1,312 @@
+
+INSERT INTO public.challenge
+(id, objects, hint)
+VALUES('26cd5678-39bb-11ec-8d3d-0242ac130003', 1, 'Justify-content %0 alinha itens horizontalmente e aceita os seguintes valores: %2 flex-start: Itens se alinham à esquerda do container. %3 flex-end: Itens se alinham à direita do container. %3 center: Itens se alinham no centro do container. %3 space-between: Itens se alinham com distância igual entre eles. %3 space-around: Itens se alinham com distância igual em torno deles. ');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('5abb96d4-39bb-11ec-8d3d-0242ac130003', 'justifyContent', 'flex-end', '26cd5678-39bb-11ec-8d3d-0242ac130003');
+
+
+INSERT INTO public.challenge
+(id, objects, hint)
+VALUES('d0952064-39bb-11ec-8d3d-0242ac130003', 2, 'Justify-content %0 alinha itens horizontalmente e aceita os seguintes valores: %2 flex-start: Itens se alinham à esquerda do container. %3 flex-end: Itens se alinham à direita do container. %3 center: Itens se alinham no centro do container. %3 space-between: Itens se alinham com distância igual entre eles. %3 space-around: Itens se alinham com distância igual em torno deles. ');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('f6de27ac-39bb-11ec-8d3d-0242ac130003', 'justifyContent', 'center', 'd0952064-39bb-11ec-8d3d-0242ac130003');
+
+
+
+
+INSERT INTO public.challenge
+(id, objects, hint)
+
+VALUES('72edd4fa-39bc-11ec-8d3d-0242ac130003', 3, 'Justify-content %0 alinha itens horizontalmente e aceita os seguintes valores: %2 flex-start: Itens se alinham à esquerda do container. %3 flex-end: Itens se alinham à direita do container. %3 center: Itens se alinham no centro do container. %3 space-between: Itens se alinham com distância igual entre eles. %3 space-around: Itens se alinham com distância igual em torno deles. ');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('dc723f60-39bc-11ec-8d3d-0242ac130003', 'justifyContent', 'space-around', '72edd4fa-39bc-11ec-8d3d-0242ac130003');
+ 
+
+
+INSERT INTO public.challenge
+(id, objects, hint)
+VALUES('36a6cff0-39bd-11ec-8d3d-0242ac130003', 3, 
+'Justify-content %0 alinha itens horizontalmente e aceita os seguintes valores: %2 flex-start: Itens se alinham à esquerda do container. %3 flex-end: Itens se alinham à direita do container. %3 center: Itens se alinham no centro do container. %3 space-between: Itens se alinham com distância igual entre eles. %3 space-around: Itens se alinham com distância igual em torno deles. ');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('49b48ac4-39bd-11ec-8d3d-0242ac130003', 'justifyContent', 'space-between', '36a6cff0-39bd-11ec-8d3d-0242ac130003');
+ 
+
+
+
+INSERT INTO public.challenge
+(id, objects, hint)
+VALUES('6979b276-39bd-11ec-8d3d-0242ac130003', 3, 'Align-items %0 alinha itens verticalmente e aceita os seguintes valores: %2 flex-start: Os itens são alinhados ao topo do contêiner. %3 flex-end: Os itens são alinhados ao fundo do contêiner. %3 center: Os itens são alinhados no centro vertical do contêiner. %3 baseline: Os itens são exibidos na linha de base do contêiner. %3 stretch: Os itens são esticados para caber no contêiner');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('9091f3dc-39bd-11ec-8d3d-0242ac130003', 'alignItems', 'flex-end', '6979b276-39bd-11ec-8d3d-0242ac130003');
+ 
+
+INSERT INTO public.challenge
+(id, objects, hint)
+VALUES('2750657c-39cf-11ec-8d3d-0242ac130003', 1, 'Justify-content %0 alinha itens horizontalmente e aceita os seguintes valores: %2 flex-start: Itens se alinham à esquerda do container. %3 flex-end: Itens se alinham à direita do container. %3 center: Itens se alinham no centro do container. %3 space-between: Itens se alinham com distância igual entre eles. %3 space-around: Itens se alinham com distância igual em torno deles. %1 Align-items %0 alinha itens verticalmente e aceita os seguintes valores: %2 flex-start: Os itens são alinhados ao topo do contêiner. %3 flex-end: Os itens são alinhados ao fundo do contêiner. %3 center: Os itens são alinhados no centro vertical do contêiner. %3 baseline: Os itens são exibidos na linha de base do contêiner. %3 stretch: Os itens são esticados para caber no contêiner');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('3fdf7e66-39cf-11ec-8d3d-0242ac130003', 'justifyContent', 'center', '2750657c-39cf-11ec-8d3d-0242ac130003');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('5b44ab40-39cf-11ec-8d3d-0242ac130003', 'alignItems', 'center', '2750657c-39cf-11ec-8d3d-0242ac130003');
+
+
+
+INSERT INTO public.challenge
+(id, objects, hint)
+VALUES('783f79d2-39cf-11ec-8d3d-0242ac130003', 3, 'Justify-content %0 alinha itens horizontalmente e aceita os seguintes valores: %2 flex-start: Itens se alinham à esquerda do container. %3 flex-end: Itens se alinham à direita do container. %3 center: Itens se alinham no centro do container. %3 space-between: Itens se alinham com distância igual entre eles. %3 space-around: Itens se alinham com distância igual em torno deles. %1 Align-items %0 alinha itens verticalmente e aceita os seguintes valores: %2 flex-start: Os itens são alinhados ao topo do contêiner. %3 flex-end: Os itens são alinhados ao fundo do contêiner. %3 center: Os itens são alinhados no centro vertical do contêiner. %3 baseline: Os itens são exibidos na linha de base do contêiner. %3 stretch: Os itens são esticados para caber no contêiner');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('900a4402-39cf-11ec-8d3d-0242ac130003', 'justifyContent', 'space-around', '783f79d2-39cf-11ec-8d3d-0242ac130003');
+
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('ad331f72-39cf-11ec-8d3d-0242ac130003', 'alignItems', 'flex-end', '783f79d2-39cf-11ec-8d3d-0242ac130003');
+
+
+
+INSERT INTO public.challenge
+(id, objects, hint)
+VALUES('3bd42cd0-39d0-11ec-8d3d-0242ac130003', 3, 'Flex-direction %0 define a direção em que os itens são colocados no contêiner e aceita os seguintes valores: %2 row: Os itens são colocados da mesma forma que a direção do texto. %3 row-reverse: Os itens são posicionados opostos à direção do texto. %3 column: Os itens são colocados de cima para baixo. %3 column-reverse: Os itens são colocados de baixo para cima.');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('484f13da-39d0-11ec-8d3d-0242ac130003', 'flexDirection', 'row-reverse', '3bd42cd0-39d0-11ec-8d3d-0242ac130003');
+
+
+
+ INSERT INTO public.challenge
+(id, objects, hint)
+VALUES('715fea42-39d0-11ec-8d3d-0242ac130003', 3, 'Flex-direction %0 define a direção em que os itens são colocados no contêiner e aceita os seguintes valores: %2 row: Os itens são colocados da mesma forma que a direção do texto. %3 row-reverse: Os itens são posicionados opostos à direção do texto. %3 column: Os itens são colocados de cima para baixo. %3 column-reverse: Os itens são colocados de baixo para cima.');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('7deaf086-39d0-11ec-8d3d-0242ac130003', 'flexDirection', 'column', '715fea42-39d0-11ec-8d3d-0242ac130003');
+
+
+INSERT INTO public.challenge
+(id, objects, hint)
+VALUES('a3af2cc4-39d0-11ec-8d3d-0242ac130003', 3, 'Flex-direction %0 define a direção em que os itens são colocados no contêiner e aceita os seguintes valores: %2 row: Os itens são colocados da mesma forma que a direção do texto. %3 row-reverse: Os itens são posicionados opostos à direção do texto. %3 column: Os itens são colocados de cima para baixo. %3 column-reverse: Os itens são colocados de baixo para cima. %1 Justify-content %0 alinha itens horizontalmente e aceita os seguintes valores: %2 flex-start: Itens se alinham à esquerda do container. %3 flex-end: Itens se alinham à direita do container. %3 center: Itens se alinham no centro do container. %3 space-between: Itens se alinham com distância igual entre eles. %3 space-around: Itens se alinham com distância igual em torno deles. ');
+
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('b38b86e2-39d0-11ec-8d3d-0242ac130003', 'flexDirection', 'row-reverse', 'a3af2cc4-39d0-11ec-8d3d-0242ac130003');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('ce95df50-39d0-11ec-8d3d-0242ac130003', 'justifyContent', 'flex-end', 'a3af2cc4-39d0-11ec-8d3d-0242ac130003');
+
+
+
+INSERT INTO public.challenge
+(id, objects, hint)
+VALUES('745786fe-39d2-11ec-8d3d-0242ac130003', 3, 'Flex-direction %0 define a direção em que os itens são colocados no contêiner e aceita os seguintes valores: %2 row: Os itens são colocados da mesma forma que a direção do texto. %3 row-reverse: Os itens são posicionados opostos à direção do texto. %3 column: Os itens são colocados de cima para baixo. %3 column-reverse: Os itens são colocados de baixo para cima. %1 Justify-content %0 alinha itens horizontalmente e aceita os seguintes valores: %2 flex-start: Itens se alinham à esquerda do container. %3 flex-end: Itens se alinham à direita do container. %3 center: Itens se alinham no centro do container. %3 space-between: Itens se alinham com distância igual entre eles. %3 space-around: Itens se alinham com distância igual em torno deles. ');
+
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('859d7fea-39d2-11ec-8d3d-0242ac130003', 'flexDirection', 'column', '745786fe-39d2-11ec-8d3d-0242ac130003');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('ad7bdc3c-39d2-11ec-8d3d-0242ac130003', 'justifyContent', 'flex-end', '745786fe-39d2-11ec-8d3d-0242ac130003');
+
+
+
+INSERT INTO public.challenge
+(id, objects, hint)
+VALUES('c493e7ca-39d2-11ec-8d3d-0242ac130003', 3, 'Flex-direction %0 define a direção em que os itens são colocados no contêiner e aceita os seguintes valores: %2 row: Os itens são colocados da mesma forma que a direção do texto. %3 row-reverse: Os itens são posicionados opostos à direção do texto. %3 column: Os itens são colocados de cima para baixo. %3 column-reverse: Os itens são colocados de baixo para cima. %1 Justify-content %0 alinha itens horizontalmente e aceita os seguintes valores: %2 flex-start: Itens se alinham à esquerda do container. %3 flex-end: Itens se alinham à direita do container. %3 center: Itens se alinham no centro do container. %3 space-between: Itens se alinham com distância igual entre eles. %3 space-around: Itens se alinham com distância igual em torno deles. ');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('e46835c4-39d2-11ec-8d3d-0242ac130003', 'flexDirection', 'column-reverse', 'c493e7ca-39d2-11ec-8d3d-0242ac130003');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('0ae9c528-39d3-11ec-8d3d-0242ac130003', 'justifyContent', 'space-between', 'c493e7ca-39d2-11ec-8d3d-0242ac130003');
+
+
+
+INSERT INTO public.challenge
+(id, objects, hint)
+VALUES('2af33c8c-39d3-11ec-8d3d-0242ac130003', 3, 
+'Flex-direction %0 define a direção em que os itens são colocados no contêiner e aceita os seguintes valores: %2 row: Os itens são colocados da mesma forma que a direção do texto. %3 row-reverse: Os itens são posicionados opostos à direção do texto. %3 column: Os itens são colocados de cima para baixo. %3 column-reverse: Os itens são colocados de baixo para cima. %1 Justify-content %0 alinha itens horizontalmente e aceita os seguintes valores: %2 flex-start: Itens se alinham à esquerda do container. %3 flex-end: Itens se alinham à direita do container. %3 center: Itens se alinham no centro do container. %3 space-between: Itens se alinham com distância igual entre eles. %3 space-around: Itens se alinham com distância igual em torno deles. %1 Align-items %0 alinha itens verticalmente e aceita os seguintes valores: %2 flex-start: Os itens são alinhados ao topo do contêiner. %3 flex-end: Os itens são alinhados ao fundo do contêiner. %3 center: Os itens são alinhados no centro vertical do contêiner. %3 baseline: Os itens são exibidos na linha de base do contêiner. %3 stretch: Os itens são esticados para caber no contêiner');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('3f372c94-39d3-11ec-8d3d-0242ac130003', 'flexDirection', 'row-reverse', '2af33c8c-39d3-11ec-8d3d-0242ac130003');
+
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('63e30248-39d3-11ec-8d3d-0242ac130003', 'justifyContent', 'center', '2af33c8c-39d3-11ec-8d3d-0242ac130003');
+
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('7e427b8c-39d3-11ec-8d3d-0242ac130003', 'alignItems', 'flex-end', '2af33c8c-39d3-11ec-8d3d-0242ac130003');
+
+
+
+INSERT INTO public.challenge
+(id, objects, hint)
+VALUES('9a92e52e-39d3-11ec-8d3d-0242ac130003', 3, 
+'Flex-direction %0 define a direção em que os itens são colocados no contêiner e aceita os seguintes valores: %2 row: Os itens são colocados da mesma forma que a direção do texto. %3 row-reverse: Os itens são posicionados opostos à direção do texto. %3 column: Os itens são colocados de cima para baixo. %3 column-reverse: Os itens são colocados de baixo para cima. %1 Justify-content %0 alinha itens horizontalmente e aceita os seguintes valores: %2 flex-start: Itens se alinham à esquerda do container. %3 flex-end: Itens se alinham à direita do container. %3 center: Itens se alinham no centro do container. %3 space-between: Itens se alinham com distância igual entre eles. %3 space-around: Itens se alinham com distância igual em torno deles. %1 Align-items %0 alinha itens verticalmente e aceita os seguintes valores: %2 flex-start: Os itens são alinhados ao topo do contêiner. %3 flex-end: Os itens são alinhados ao fundo do contêiner. %3 center: Os itens são alinhados no centro vertical do contêiner. %3 baseline: Os itens são exibidos na linha de base do contêiner. %3 stretch: Os itens são esticados para caber no contêiner');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('aa9d6778-39d3-11ec-8d3d-0242ac130003', 'flexDirection', 'row-reverse', '9a92e52e-39d3-11ec-8d3d-0242ac130003');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('ca596878-39d3-11ec-8d3d-0242ac130003', 'justifyContent', 'center', '9a92e52e-39d3-11ec-8d3d-0242ac130003');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('dbba152c-39d3-11ec-8d3d-0242ac130003', 'alignItems', 'flex-end', '9a92e52e-39d3-11ec-8d3d-0242ac130003');
+
+
+
+INSERT INTO public.challenge
+(id, objects, hint)
+VALUES('d5436c8d-99b7-49e8-9b96-0b580a4edf28', 2, 'Justify-content %0 alinha itens horizontalmente e aceita os seguintes valores: %2 flex-start: Itens se alinham à esquerda do container. %3 flex-end: Itens se alinham à direita do container. %3 center: Itens se alinham no centro do container. %3 space-between: Itens se alinham com distância igual entre eles. %3 space-around: Itens se alinham com distância igual em torno deles. ');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('122205b4-2961-49bd-92df-1498bdd02e2a', 'justifyContent', 'space-between', 'd5436c8d-99b7-49e8-9b96-0b580a4edf28');
+
+
+INSERT INTO public.challenge
+(id, objects, hint)
+VALUES('820f8237-ad7a-4302-a58b-a975a4a3e62d', 2, 'Align-items %0 alinha itens verticalmente e aceita os seguintes valores: %2 flex-start: Os itens são alinhados ao topo do contêiner. %3 flex-end: Os itens são alinhados ao fundo do contêiner. %3 center: Os itens são alinhados no centro vertical do contêiner. %3 baseline: Os itens são exibidos na linha de base do contêiner. %3 stretch: Os itens são esticados para caber no contêiner.');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('3e1e5a62-645b-41a6-a00a-a63d8c436289', 'alignItems', 'center', '820f8237-ad7a-4302-a58b-a975a4a3e62d');
+
+
+
+INSERT INTO public.challenge
+(id, objects, hint)
+VALUES('565bef54-69b5-443b-864e-af212fad0f0c', 2, 'Align-items %0 alinha itens verticalmente e aceita os seguintes valores: %2 flex-start: Os itens são alinhados ao topo do contêiner. %3 flex-end: Os itens são alinhados ao fundo do contêiner. %3 center: Os itens são alinhados no centro vertical do contêiner. %3 baseline: Os itens são exibidos na linha de base do contêiner. %3 stretch: Os itens são esticados para caber no contêiner.');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('89271920-7aef-41b1-8e5b-8e8e98ccdc9c', 'alignItems', 'flex-end', '565bef54-69b5-443b-864e-af212fad0f0c');
+
+
+INSERT INTO public.challenge
+(id, objects, hint)
+VALUES('e6223ad6-042c-4850-a3d3-a67b0d16771c', 2, 'Flex-direction %0 define a direção em que os itens são colocados no contêiner e aceita os seguintes valores: %2 row: Os itens são colocados da mesma forma que a direção do texto. %3 row-reverse: Os itens são posicionados opostos à direção do texto. %3 column: Os itens são colocados de cima para baixo. %3 column-reverse: Os itens são colocados de baixo para cima. %1 Justify-content %0 alinha itens horizontalmente e aceita os seguintes valores: %2 flex-start: Itens se alinham à esquerda do container. %3 flex-end: Itens se alinham à direita do container. %3 center: Itens se alinham no centro do container. %3 space-between: Itens se alinham com distância igual entre eles. %3 space-around: Itens se alinham com distância igual em torno deles. ');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('a044f9bc-a509-44f0-af95-191b4ccf9d3f', 'flexDirection', 'row-reverse', 'e6223ad6-042c-4850-a3d3-a67b0d16771c');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('8eecf226-31d2-43c7-a1b3-d997da047d56', 'justifyContent', 'space-between', 'e6223ad6-042c-4850-a3d3-a67b0d16771c');
+
+
+INSERT INTO public.challenge
+(id, objects, hint)
+VALUES('a73498c1-86b8-47bf-8eee-92bc25acc4a6', 2, 'Flex-direction %0 define a direção em que os itens são colocados no contêiner e aceita os seguintes valores: %2 row: Os itens são colocados da mesma forma que a direção do texto. %3 row-reverse: Os itens são posicionados opostos à direção do texto. %3 column: Os itens são colocados de cima para baixo. %3 column-reverse: Os itens são colocados de baixo para cima. %1 Justify-content %0 alinha itens horizontalmente e aceita os seguintes valores: %2 flex-start: Itens se alinham à esquerda do container. %3 flex-end: Itens se alinham à direita do container. %3 center: Itens se alinham no centro do container. %3 space-between: Itens se alinham com distância igual entre eles. %3 space-around: Itens se alinham com distância igual em torno deles. ');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('6390b1a7-8624-4790-a56d-bb676068c1d3', 'flexDirection', 'row-reverse', 'a73498c1-86b8-47bf-8eee-92bc25acc4a6');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('759a3d90-acf1-41dd-bcb7-5c230a7ad017', 'justifyContent', 'space-around', 'a73498c1-86b8-47bf-8eee-92bc25acc4a6');
+
+
+
+INSERT INTO public.challenge
+(id, objects, hint)
+VALUES('d7c551ac-6de6-428e-85ae-146a497e096e', 2, 
+'Flex-direction %0 define a direção em que os itens são colocados no contêiner e aceita os seguintes valores: %2 row: Os itens são colocados da mesma forma que a direção do texto. %3 row-reverse: Os itens são posicionados opostos à direção do texto. %3 column: Os itens são colocados de cima para baixo. %3 column-reverse: Os itens são colocados de baixo para cima. %1 Justify-content %0 alinha itens horizontalmente e aceita os seguintes valores: %2 flex-start: Itens se alinham à esquerda do container. %3 flex-end: Itens se alinham à direita do container. %3 center: Itens se alinham no centro do container. %3 space-between: Itens se alinham com distância igual entre eles. %3 space-around: Itens se alinham com distância igual em torno deles. %1 Align-items %0 alinha itens verticalmente e aceita os seguintes valores: %2 flex-start: Os itens são alinhados ao topo do contêiner. %3 flex-end: Os itens são alinhados ao fundo do contêiner. %3 center: Os itens são alinhados no centro vertical do contêiner. %3 baseline: Os itens são exibidos na linha de base do contêiner. %3 stretch: Os itens são esticados para caber no contêiner');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('c21427b2-d92b-45aa-ab9c-93ea8ea9c964', 'flexDirection', 'row-reverse', 'd7c551ac-6de6-428e-85ae-146a497e096e');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('a5142ded-b440-4beb-8fd3-82e5f03287e3', 'justifyContent', 'center', 'd7c551ac-6de6-428e-85ae-146a497e096e');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('4f106b81-15b1-4536-b863-1e7fdab81e49', 'alignItems', 'center', 'd7c551ac-6de6-428e-85ae-146a497e096e');
+
+
+
+INSERT INTO public.challenge
+(id, objects, hint)
+VALUES('4d5a6f15-2d41-44a0-ac4a-f93bc35ac153', 1, 'Justify-content %0 alinha itens horizontalmente e aceita os seguintes valores: %2 flex-start: Itens se alinham à esquerda do container. %3 flex-end: Itens se alinham à direita do container. %3 center: Itens se alinham no centro do container. %3 space-between: Itens se alinham com distância igual entre eles. %3 space-around: Itens se alinham com distância igual em torno deles. %1 Align-items %0 alinha itens verticalmente e aceita os seguintes valores: %2 flex-start: Os itens são alinhados ao topo do contêiner. %3 flex-end: Os itens são alinhados ao fundo do contêiner. %3 center: Os itens são alinhados no centro vertical do contêiner. %3 baseline: Os itens são exibidos na linha de base do contêiner. %3 stretch: Os itens são esticados para caber no contêiner');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('42da62a7-24e0-436d-95f8-7f082acadfc8', 'justifyContent', 'flex-end', '4d5a6f15-2d41-44a0-ac4a-f93bc35ac153');
+
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('e6b5aa05-37c2-440a-bfb6-62eecdf6d7c3', 'alignItems', 'flex-end', '4d5a6f15-2d41-44a0-ac4a-f93bc35ac153');
+
+
+
+INSERT INTO public.challenge
+(id, objects, hint)
+VALUES('400b6e1a-7f40-4c14-8d48-3e6e20343edd', 2, 'Justify-content %0 alinha itens horizontalmente e aceita os seguintes valores: %2 flex-start: Itens se alinham à esquerda do container. %3 flex-end: Itens se alinham à direita do container. %3 center: Itens se alinham no centro do container. %3 space-between: Itens se alinham com distância igual entre eles. %3 space-around: Itens se alinham com distância igual em torno deles. %1 Align-items %0 alinha itens verticalmente e aceita os seguintes valores: %2 flex-start: Os itens são alinhados ao topo do contêiner. %3 flex-end: Os itens são alinhados ao fundo do contêiner. %3 center: Os itens são alinhados no centro vertical do contêiner. %3 baseline: Os itens são exibidos na linha de base do contêiner. %3 stretch: Os itens são esticados para caber no contêiner');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('0bcfaf4a-be34-462f-904c-45628b0acfa3', 'justifyContent', 'space-around', '400b6e1a-7f40-4c14-8d48-3e6e20343edd');
+
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('84f5de12-3926-4418-a2c5-b5d7c76b3c5f', 'alignItems', 'center', '400b6e1a-7f40-4c14-8d48-3e6e20343edd');
+
+
+
+INSERT INTO public.challenge
+(id, objects, hint)
+VALUES('22039218-35f9-4fe8-ba76-16c73bdbf3dc', 3, 'Justify-content %0 alinha itens horizontalmente e aceita os seguintes valores: %2 flex-start: Itens se alinham à esquerda do container. %3 flex-end: Itens se alinham à direita do container. %3 center: Itens se alinham no centro do container. %3 space-between: Itens se alinham com distância igual entre eles. %3 space-around: Itens se alinham com distância igual em torno deles. %1 Align-items %0 alinha itens verticalmente e aceita os seguintes valores: %2 flex-start: Os itens são alinhados ao topo do contêiner. %3 flex-end: Os itens são alinhados ao fundo do contêiner. %3 center: Os itens são alinhados no centro vertical do contêiner. %3 baseline: Os itens são exibidos na linha de base do contêiner. %3 stretch: Os itens são esticados para caber no contêiner');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('c4e62f17-1a2e-4004-9fca-93f379c22d10', 'justifyContent', 'space-between', '22039218-35f9-4fe8-ba76-16c73bdbf3dc');
+
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('ccc26323-fed3-4c02-b625-b4e598b71d2d', 'alignItems', 'center', '22039218-35f9-4fe8-ba76-16c73bdbf3dc');
+
+
+
+INSERT INTO public.challenge
+(id, objects, hint)
+VALUES('d4856618-7295-4388-b333-5ca68aee7429', 2, 'Align-items %0 alinha itens verticalmente e aceita os seguintes valores: %2 flex-start: Os itens são alinhados ao topo do contêiner. %3 flex-end: Os itens são alinhados ao fundo do contêiner. %3 center: Os itens são alinhados no centro vertical do contêiner. %3 baseline: Os itens são exibidos na linha de base do contêiner. %3 stretch: Os itens são esticados para caber no contêiner');
+
+INSERT INTO public.answer
+(id, property, value, challenge_id)
+VALUES('137dfe39-b811-491a-a66d-24766421dcc0', 'alignItems', 'center', 'd4856618-7295-4388-b333-5ca68aee7429');
+ 

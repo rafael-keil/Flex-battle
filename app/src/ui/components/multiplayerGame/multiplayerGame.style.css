@@ -1,0 +1,151 @@
+.multiplayer-game__main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100vw;
+  height: 90vh;
+}
+
+.multiplayer-game__game-left {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.multiplayer-game__menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 7vh;
+  margin: 4px 0 20px 20px;
+}
+
+.multiplayer-game__battle-icon {
+  height: 30px;
+  padding-left: 20px;
+  filter: grayscale(100%);
+}
+
+.multiplayer-game__game-left-content {
+  margin-top: 70px;
+  width: 100%;
+  height: 80vh;
+  border-width: 1px 1px 0 0;
+  border-style: solid;
+  border-color: #dee8ff;
+  border-radius: 0 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.multiplayer-game__text-button {
+  width: 90%;
+  position: relative;
+}
+
+.multiplayer-game__donnut-back {
+  position: absolute;
+  left: -180px;
+  top: -40px;
+  width: 340px;
+}
+
+.multiplayer-game__button {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+  height: 58px;
+}
+
+.multiplayer-game__color-back {
+  width: 49.5%;
+  height: 30%;
+  background-color: #dee8ff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 20px 0 0;
+  z-index: -30;
+}
+
+.multiplayer-game__game-right {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.multiplayer-game__timer {
+  height: 45px;
+  width: 120px;
+  border: 1px solid;
+  border-color: #dee8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Aoenik-bold, arial, sans-serif;
+  font-size: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 0.5em rgba(128, 128, 128, 0.288);
+}
+
+.multiplayer-game__timer-yellow {
+  animation: pulse-yellow 5s infinite;
+}
+
+.multiplayer-game__timer-yellow-fast {
+  animation: pulse-yellow 2s infinite;
+}
+
+.multiplayer-game__timer-red {
+  animation: pulse-red 1s infinite;
+}
+
+@keyframes pulse-yellow {
+  0% {
+    color: rgb(255, 230, 0);
+  }
+  110% {
+    color: black;
+  }
+}
+
+@keyframes pulse-red {
+  0% {
+    color: #ff0d45;
+  }
+  110% {
+    color: black;
+  }
+}
+
+.multiplayer-game__console-right {
+  border: 1px solid;
+  border-color: #dee8ff;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.multiplayer-game__initial-timer {
+  position: absolute;
+  z-index: 30;
+  background: linear-gradient(to right, #e5faff 50%, #dee8ff 50% 100%);
+}
+
+.multiplayer-game__initial-timer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.multiplayer-game__initial-timer-description {
+  font-size: 24px;
+  font-family: Aoenik-bold, arial, sans-serif;
+  margin-bottom: 23px;
+}

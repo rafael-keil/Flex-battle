@@ -1,0 +1,44 @@
+.game__background-game {
+  position: relative;
+}
+
+.game_background-game-left {
+  margin-top: 60px;
+}
+
+.game__donut-style {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  z-index: 10;
+  padding: 10px;
+}
+
+.game__plate-style {
+  width: 100%;
+  height: 100%;
+  position: static;
+  display: flex;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+  padding: 10px;
+}
+
+.game__background-game-big {
+  width: 100%;
+  height: 100%;
+}
+
+.game__background-game-medium {
+  width: 100%;
+  height: 45vh;
+}
+
+.game__background-game-small {
+  width: 35vw;
+  height: 40vh;
+}

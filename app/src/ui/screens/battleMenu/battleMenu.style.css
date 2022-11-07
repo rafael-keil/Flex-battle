@@ -1,0 +1,38 @@
+.battle-menu {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to right, #e5faff 50%, #dee8ff 50% 100%);
+}
+
+.battle-menu__main {
+  display: flex;
+  flex-direction: column;
+}
+
+.battle-menu__options {
+  display: flex;
+}
+
+.battle-menu__title {
+  margin: 9px 9px;
+}
+
+.battle-menu__image {
+  margin: 4px;
+}
+
+.battle-menu__description {
+  width: 120px;
+  text-align: left;
+  margin: 8px;
+}
+
+.default-menu__description-title {
+  margin: 0 20px;
+}
+
+.default-menu__description-small {
+  width: 73px;
+  text-align: left;
+  margin: 8px;
+}

@@ -1,0 +1,46 @@
+.login {
+  background: linear-gradient(to right, #e5faff 50%, #dee8ff 50% 100%);
+}
+
+.login__subtitle {
+  font-size: 26px;
+  font-family: Aoenik-bold, arial, sans-serif;
+}
+
+.login__input {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.login__forgot-password {
+  font-size: 14px;
+  color: #c4c4c4;
+  display: block;
+  margin: 8px 0 40px;
+}
+
+.login__header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.login__header-div {
+  width: 1px;
+  height: 38px;
+  background-color: #c4c4c4;
+}
+
+.login__header-information {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 190px;
+}
+
+.login__header-information-detail {
+  font-size: 14px;
+  color: #333333;
+}

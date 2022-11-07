@@ -1,0 +1,42 @@
+.default-input {
+  position: relative;
+  width: 312px;
+}
+
+.default-input__span {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 18px;
+  color: #c4c4c4;
+  transition: 0.2s;
+  pointer-events: none;
+}
+
+.default-input__input {
+  border-radius: 8px;
+  color: #898989;
+  background-color: white;
+  font-size: 18px;
+  border: 1px solid #c4c4c4;
+  padding: 26px 18px 12px;
+  width: 100%;
+}
+
+.default-input__input:focus {
+  outline: none;
+}
+
+.default-input__input:valid + .default-input__span,
+.default-input__input:focus + .default-input__span {
+  top: 32%;
+  font-size: 13px;
+}
+
+.default-input__img {
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translate(0, -50%);
+  cursor: pointer;
+}

@@ -1,0 +1,66 @@
+.default-ranking__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.default-ranking__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 23px;
+}
+
+.default-ranking__title-name {
+  font-size: 28px;
+  font-family: Aoenik-bold, arial, sans-serif;
+  margin-right: 10px;
+}
+
+.default-ranking__title-img {
+  height: 28px;
+  filter: grayscale(100%);
+}
+
+.default-ranking__list-item {
+  display: flex;
+  border-bottom: 1px solid #dee8ff;
+  height: 25px;
+  margin: 7px;
+}
+
+.default-ranking__list-item-position {
+  font-size: 12px;
+  font-family: Aoenik, arial, sans-serif;
+  color: #94a3c5;
+  padding: 3px 12px 7px 0;
+  width: 24px;
+  align-items: center;
+}
+
+.default-ranking__list-item-name {
+  width: 350px;
+}
+
+.default-ranking__list-item-points {
+  width: 52px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.default-ranking__list-item-points-detail {
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 250;
+  margin-left: 3px;
+}
+
+.default-ranking__crown-first {
+  position: absolute;
+  z-index: 10;
+  transform: rotate(-28deg);
+  height: 30px;
+  top: 45px;
+  left: 42px;
+}

@@ -1,0 +1,20 @@
+server:
+  port: 8020
+  servlet:
+    context-path: /flex-battle
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    username: erlxyynjhtzbyy
+    password: f3aaab8a4030aadf8075e484f7e76b9f6291eb037ab12a9feb2a0d0b1d20a037
+    url: jdbc:postgresql://ec2-3-231-194-96.compute-1.amazonaws.com:5432/d36gkgc8g03qg2?currentSchema=public
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 3
+auth-url: https://auth-homolog.cwi.com.br/connect

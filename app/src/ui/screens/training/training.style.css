@@ -1,0 +1,62 @@
+.training__main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.training__backgroun {
+  background-color: #e5faff;
+  width: 50vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.training__infos {
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.training__hint {
+  width: 90%;
+  padding-top: 90px;
+}
+
+.training__text-button {
+  width: 90%;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.training__donnut-back {
+  position: absolute;
+  left: -180px;
+  top: -25px;
+  width: 400px;
+}
+
+.training__button {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+  height: 58px;
+}
+
+.training__menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 7vh;
+  gap: 20px;
+  margin-left: 20px;
+}
+
+.training__game {
+  height: 100vh;
+  width: 50vw;
+}

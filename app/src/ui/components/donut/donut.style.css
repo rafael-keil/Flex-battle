@@ -1,0 +1,32 @@
+.donut__order-big {
+  width: 94px;
+  height: 94px;
+  margin: 5px;
+}
+
+.donut__image-big {
+  margin: 26px 13px;
+  width: 68px;
+}
+
+.donut__order-medium {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+}
+
+.donut__image-medium {
+  margin: 16px 7px;
+  width: 48px;
+}
+
+.donut__order-small {
+  width: 35px;
+  height: 35px;
+  margin: 10px;
+}
+
+.donut__image-small {
+  margin: 8px 1px;
+  width: 35px;
+}

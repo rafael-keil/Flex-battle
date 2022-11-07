@@ -1,0 +1,45 @@
+.default-menu__main {
+  display: flex;
+  flex-direction: column;
+  transition: opacity 2s ease-in;
+}
+
+.default-menu__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.default-menu__options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.default-menu__button {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.default-menu__title {
+  margin: 9px 9px;
+}
+
+.default-menu__image {
+  margin: 4px;
+}
+
+.default-menu__description {
+  width: 125px;
+  text-align: left;
+  margin: 8px;
+}
+
+.default-menu__description-title {
+  margin: 0 20px;
+}
+
+.default-menu__description-small {
+  width: 73px;
+  text-align: left;
+  margin: 8px;
+}

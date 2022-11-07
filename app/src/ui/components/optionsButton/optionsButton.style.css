@@ -1,0 +1,30 @@
+.options-button {
+  border: 1px solid #c4c4c4;
+  border-radius: 18px;
+  background-color: #ffffff;
+  color: #333333;
+  padding: 16px 13px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 9px;
+  width: 196px;
+  display: flex;
+  align-items: center;
+  filter: grayscale(100%);
+}
+
+.options-button:hover {
+  border: 1px solid #ffaabd;
+  color: #ff2a5b;
+  filter: none;
+  transition: 0.3s;
+}
+
+.options-button:disabled {
+  border: 1px solid #c4c4c4;
+  color: #333333;
+  filter: grayscale(100%);
+  background-color: #e7e7e7ea;
+  opacity: 0.7;
+  cursor: not-allowed;
+}

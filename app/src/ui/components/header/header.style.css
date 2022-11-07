@@ -1,0 +1,15 @@
+.header__menu {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 7vh;
+  margin: 4px 0 20px 20px;
+  gap: 20px;
+  top: 0;
+  left: 0;
+}
+.header__battle-icon {
+  height: 30px;
+  filter: grayscale(100%);
+}

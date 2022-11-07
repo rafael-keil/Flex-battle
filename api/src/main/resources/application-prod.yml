@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    username: olilucbsydolrv
+    password: 89d50b241f1acf7b7d5efbbc1e1e2393b9b1ccc88ee13d444548f8c5bbe6b79a
+    url: jdbc:postgresql://10.99.220.150:9204/de5evmbi5v67dg?currentSchema=public
+    hikari:
+      maximum-pool-size: 20

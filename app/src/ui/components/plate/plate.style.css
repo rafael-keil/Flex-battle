@@ -1,0 +1,26 @@
+.plate__order-big {
+  width: 105px;
+  height: 105px;
+}
+
+.plate__image-big {
+  max-width: 100%;
+}
+
+.plate__order-medium {
+  width: 70px;
+  height: 70px;
+}
+
+.plate__image-medium {
+  max-width: 100%;
+}
+
+.plate__order-small {
+  width: 55px;
+  height: 55px;
+}
+
+.plate__image-small {
+  max-width: 100%;
+}

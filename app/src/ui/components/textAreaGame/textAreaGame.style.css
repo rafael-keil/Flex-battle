@@ -1,0 +1,55 @@
+.textarea-game__editor {
+  height: 177px;
+}
+
+.textarea-game__css {
+  position: relative;
+  padding: 10px 10px 10px 40px;
+  background-color: #333333;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.textarea-game__text {
+  color: white;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.textarea-game__text-end {
+  color: white;
+  margin: 0px;
+}
+
+.textarea-game__text-display-flex {
+  margin-left: 12px;
+}
+
+.textarea-game__line-numbers {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 10px 6px;
+  text-align: right;
+  background-color: #3f3f3f;
+  color: #6f6f6f;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.textarea-game__number {
+  display: flex;
+  justify-content: center;
+}
+
+.textarea-game__code {
+  margin-left: 12px;
+  border: none;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: #333333;
+  color: white;
+  outline: none;
+  resize: none;
+}

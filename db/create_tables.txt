@@ -1,0 +1,43 @@
+-- challenge
+CREATE TABLE challenge (
+	id uuid NOT NULL,
+	hint text,
+	objects int NOT NULL,
+	CONSTRAINT challenge_pkey PRIMARY KEY (id)
+);
+
+
+-- user_db
+CREATE TABLE user_db (
+	username varchar(255) NOT NULL,
+	email varchar(255) NOT NULL,
+	"name" varchar(255) NOT NULL,
+	ranking int NOT NULL,
+	CONSTRAINT user_db_pkey PRIMARY KEY (username)
+);
+
+
+-- answer
+CREATE TABLE answer (
+	id uuid NOT NULL,
+	property varchar(255) NOT NULL,
+	value varchar(255) NOT NULL,
+	challenge_id uuid NOT NULL,
+	CONSTRAINT answer_pkey PRIMARY KEY (id),
+	CONSTRAINT challenge_id_fk FOREIGN KEY (challenge_id) REFERENCES challenge(id)
+);
+
+
+-- battle
+CREATE TABLE battle (
+	"token" int NOT NULL,
+	computed bool NOT NULL,
+	end_time int8,
+	opponent_points int,
+	owner_points int,
+	opponent_username varchar(255) NULL,
+	owner_username varchar(255) NULL,
+	CONSTRAINT battle_pkey PRIMARY KEY (token),
+	CONSTRAINT opponent_username_fk FOREIGN KEY (opponent_username) REFERENCES user_db(username),
+	CONSTRAINT owner_username_fk FOREIGN KEY (owner_username) REFERENCES user_db(username)
+);

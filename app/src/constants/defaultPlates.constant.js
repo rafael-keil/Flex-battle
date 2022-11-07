@@ -1,0 +1,3 @@
+import { PLATE_BLUE, PLATE_GREEN, PLATE_PINK } from "../assets";
+
+export const DEFAULT_PLATES = [PLATE_BLUE, PLATE_PINK, PLATE_GREEN];

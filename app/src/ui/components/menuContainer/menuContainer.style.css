@@ -1,0 +1,22 @@
+.menu-container__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.menu-container__image {
+  height: 110vh;
+}
+
+.menu-container__div {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 30px;
+  width: 640px;
+  padding: 40px 70px;
+}
